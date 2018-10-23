@@ -35,8 +35,14 @@ set cindent
 "tab键的宽度
 set tabstop=4
 
-"统一缩进为4
+"缩进为4
+set shiftwidth=4
+
+"tab占用的列数为4
 set softtabstop=4
+
+"tab转换成空格
+"set expandtab
 
 
 "不要用空格代替制表符
@@ -83,7 +89,8 @@ set noeb
 set laststatus=2
 
 
-
+"设置自动缩进快捷键
+set pastetoggle=<F9>
 
 
 
